@@ -24,7 +24,6 @@ public class DataLoader implements CommandLineRunner {
     public void run(String... args) throws Exception {
 
         Owner owner1 = new Owner();
-        owner1.setId(1L);
         owner1.setFirstName("Abdullah");
         owner1.setLastName("SEN");
 
@@ -32,7 +31,6 @@ public class DataLoader implements CommandLineRunner {
 
 
         Owner owner2 = new Owner();
-        owner2.setId(2L);
         owner2.setFirstName("Ilkay");
         owner2.setLastName("SEN");
 
@@ -42,7 +40,6 @@ public class DataLoader implements CommandLineRunner {
 
 
         Vet vet1 = new Vet();
-        vet1.setId(1l);
         vet1.setFirstName("Fatma");
         vet1.setLastName("Sen");
 
@@ -50,7 +47,6 @@ public class DataLoader implements CommandLineRunner {
 
 
         Vet vet2 = new Vet();
-        vet2.setId(2l);
         vet2.setFirstName("Necati");
         vet2.setLastName("Sen");
 
