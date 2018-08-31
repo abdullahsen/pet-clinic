@@ -50,7 +50,7 @@ public class DataLoader implements CommandLineRunner {
 
 
         Vet vet2 = new Vet();
-        vet2.setId(1l);
+        vet2.setId(2l);
         vet2.setFirstName("Necati");
         vet2.setLastName("Sen");
 
