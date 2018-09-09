@@ -8,6 +8,9 @@ import java.util.Set;
 
 @Service
 public class SpecialityServiceMap extends AbstractMapService<Speciality,Long> implements SpecialityService {
+
+
+
     @Override
     public Set<Speciality> findAll() {
         return super.findAll();
